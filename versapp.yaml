@@ -6,3 +6,21 @@ info:
 servers:
   - url: http://dev.versapp.com/apiservice/v1
     description: Servidor de desarrollo
+paths:
+components:
+  schemas:
+    Workout:
+      type: Object
+      required:
+        - id
+        - title
+      properties:
+        id: integer
+        format: int64
+        example: 1
+        title:
+          type: string
+          example: "Día A - Tren superior"
+        description:
+          type: string
+          example: "Entrenamiento tren superior con Enfasis en las dominadas"
