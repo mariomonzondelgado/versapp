@@ -1,0 +1,8 @@
+openapi: 3.0.0
+info:
+  title: VersApp
+  description: API de gestión de aspectos diarios como vehículos personales, tareas, lista de la compra y entrenamientos.
+  version: 0.0.1
+servers:
+  - url: http://dev.versapp.com/apiservice/v1
+    description: Servidor de desarrollo
